@@ -34,6 +34,8 @@ if (dir.exists("C:/Projects/MBA_Networking/ByIndustry")==FALSE){
   dir.create("C:/Projects/MBA_Networking/ByIndustry")
 }
 
+
+#Output MBA internship by industry.
 setwd("C:/Projects/MBA_Networking/ByIndustry")
 
 for (i in (1:nrow(Industry_List))){
